@@ -1,0 +1,133 @@
+* {
+  border-radius: 12px;
+  padding: 0px 2px 0px 2px;
+  margin: 1px 2px 1px 2px;
+}
+
+window#waybar {
+  color: #e6e6e6;
+  transition: background-color 0.3s ease;
+  margin: 6px 10px;
+}
+window#waybar.* {
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+.top_bar,
+.net_bar {
+  font-size: 14px;
+  font-family: monospace;
+}
+.top_bar,
+.dock_bar {
+  background: rgba(0, 0, 0, 0);
+  border-bottom: 0.5px solid #ff6bbf;
+}
+.net_bar,
+.bat_bar {
+  background: rgba(0, 0, 0, 0.6);
+}
+.widgets_bar {
+  background: rgba(0, 0, 0, 0);
+  font-size: 13px;
+}
+.widgets_bar .modules-left {
+  background: rgba(0, 0, 0, 0);
+  font-family: monospace;
+  font-size: 14px;
+}
+.widgets_bar .modules-center,
+.widgets_bar .modules-left {
+  color: #d6d8db;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#custom-tuido_0,
+#custom-tuido_1,
+#custom-tuido_2,
+#custom-tuido_3,
+#custom-tuido_4,
+#gpu,
+#cpu,
+#memory,
+#disk {
+  padding: 10px;
+}
+
+#custom-tuido_0:hover,
+#custom-tuido_1:hover,
+#custom-tuido_2:hover,
+#custom-tuido_3:hover,
+#custom-tuido_4:hover {
+  background-color: rgba(255, 79, 163, 0.15);
+}
+#custom-tuido_add {
+  padding-top: 20px;
+  font-size: 15px;
+  transition: all 200ms ease;
+}
+#custom-tuido_add:hover {
+  font-size: 18px;
+  color: #ff6bbf;
+}
+
+#custom-separator {
+  color: #7a7a80;
+}
+
+#workspaces button.active {
+  background-color: #ff4fa3;
+}
+#workspaces button.active:hover {
+  background-color: #ff7abf;
+}
+#workspaces button:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+tooltip label {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+#clock {
+  color: #ff6bbf;
+  font-weight: bold;
+}
+
+#custom-power {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  background-color: #ff4fa3;
+}
+#custom-power:hover {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  background-color: #ff7abf;
+}
+#custom-arch {
+  font-size: 20px;
+  color: #1793d1;
+}
+#custom-arch:hover {
+  font-size: 20px;
+  color: #4fc3dc;
+}
+
+#idle_inhibitor {
+  font-size: 18px;
+}
+#window {
+  font-size: 12px;
+}
+
+#taskbar button image {
+  transition: -gtk-icon-transform 150ms ease;
+}
+#taskbar button.active image {
+  padding-bottom: 12px;
+  -gtk-icon-transform: scale(1.3);
+}
